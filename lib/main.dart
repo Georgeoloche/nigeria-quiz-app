@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:nigeria_trivia_clean/presentation/screens/category_screen.dart';
-import 'database/database_helper.dart';
+import 'package:nigeria_trivia/presentation/screens/category_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Load the JSON into the database.
   await DatabaseHelper.instance.loadJsonIntoDatabase(await DatabaseHelper.instance.database);
   runApp(const MyApp());
+}
+
+class DatabaseHelper {
+  static get instance => null;
 }
 
 class MyApp extends StatelessWidget {

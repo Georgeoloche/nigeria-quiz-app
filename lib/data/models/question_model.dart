@@ -2,20 +2,13 @@ import '../../domain/entities/question.dart';
 
 class QuestionModel extends Question {
   QuestionModel({
-    required int id,
-    required String question,
-    required List<String> options,
-    required String answer,
-    required String category,
-    required String difficulty,
-  }) : super(
-          id: id,
-          question: question,
-          options: options,
-          answer: answer,
-          category: category,
-          difficulty: difficulty,
-        );
+    required super.id,
+    required super.question,
+    required super.options,
+    required super.answer,
+    required super.category,
+    required super.difficulty,
+  });
 
   factory QuestionModel.fromJson(Map<String, dynamic> json) {
     return QuestionModel(

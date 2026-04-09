@@ -19,4 +19,12 @@ class CategoryScreen extends StatelessWidget {
             title: Text(category),
             trailing: const Icon(Icons.arrow_forward),
             onTap: () {
-              // For now, default difficulty is 'easy'. You can later implement a separate difficulty selection.\n              Navigator.push(context, MaterialPageRoute(builder: (context) => QuizScreen(selectedCategory: category, selectedDifficulty: \"easy\")));\n            },\n          );\n        },\n      ),\n    );\n  }\n}\n"}
+              // For now, default difficulty is 'easy'. You can later implement a separate difficulty selection.
+              Navigator.push(context, MaterialPageRoute(builder: (context) => QuizScreen(selectedCategory: category, selectedDifficulty: "easy")));
+            },
+          );
+        },
+      ),
+    );
+  }
+}
