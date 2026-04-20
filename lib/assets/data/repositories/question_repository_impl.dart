@@ -1,8 +1,8 @@
-import 'package:nigeria_trivia/data/models/question_model.dart';
-import 'package:nigeria_trivia/data/sources/question_local_data_source.dart';
+import 'package:nigeria_trivia/assets/data/models/question_model.dart';
+import 'package:nigeria_trivia/assets/data/sources/question_local_data_source.dart';
 import 'package:nigeria_trivia/domain/Repositories/question_repository.dart';
 
-import '../../domain/entities/question.dart';
+import '../../../domain/entities/question.dart';
 
 
 class QuestionRepositoryImpl implements QuestionRepository {

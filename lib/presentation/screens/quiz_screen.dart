@@ -2,20 +2,27 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../domain/entities/question.dart';
-import '../../data/repositories/question_repository_impl.dart';
-import '../../data/sources/question_local_data_source.dart';
+import '../../assets/data/repositories/question_repository_impl.dart';
+import '../../assets/data/sources/question_local_data_source.dart';
 
 class QuizScreen extends StatefulWidget {
   final String selectedCategory;
   final String selectedDifficulty;
-  const QuizScreen({super.key, required this.selectedCategory, required this.selectedDifficulty});
+
+  const QuizScreen({
+    super.key,
+    required this.selectedCategory,
+    required this.selectedDifficulty,
+  });
 
   @override
   _QuizScreenState createState() => _QuizScreenState();
 }
 
 class _QuizScreenState extends State<QuizScreen> {
-  final QuestionRepositoryImpl repository = QuestionRepositoryImpl(localDataSource: QuestionLocalDataSource());
+  final QuestionRepositoryImpl repository =
+      QuestionRepositoryImpl(localDataSource: QuestionLocalDataSource());
+
   List<Question> _questions = [];
   int _currentIndex = 0;
   String? _selectedAnswer;
@@ -32,11 +39,20 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Future<void> _loadQuestions() async {
     List<Question> loadedQuestions = await repository.getQuestions(
-        category: widget.selectedCategory, difficulty: widget.selectedDifficulty);
+      category: widget.selectedCategory,
+      difficulty: widget.selectedDifficulty,
+    );
+
+    // Optional: shuffle options
+    // for (var q in loadedQuestions) {
+    //   q.options.shuffle();
+    // }
+
     if (mounted) {
       setState(() {
         _questions = loadedQuestions;
       });
+
       if (_questions.isNotEmpty) {
         _startTimer();
       }
@@ -46,8 +62,10 @@ class _QuizScreenState extends State<QuizScreen> {
   void _startTimer() {
     _timer?.cancel();
     _timeLeft = 10;
+
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (!mounted) return;
+
       setState(() {
         if (_timeLeft > 0) {
           _timeLeft--;
@@ -61,16 +79,19 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _selectAnswer(String answer) {
     if (_selectedAnswer != null || _quizCompleted) return;
+
     setState(() {
       _selectedAnswer = answer;
     });
+
     _timer?.cancel();
+
     bool isCorrect = answer == _questions[_currentIndex].answer;
+
     if (isCorrect) {
-      setState(() {
-        _score++;
-      });
+      _score++;
     }
+
     Future.delayed(const Duration(seconds: 1), _moveToNextQuestion);
   }
 
@@ -80,6 +101,7 @@ class _QuizScreenState extends State<QuizScreen> {
         _currentIndex++;
         _selectedAnswer = null;
       });
+
       _startTimer();
     } else {
       setState(() {
@@ -95,6 +117,7 @@ class _QuizScreenState extends State<QuizScreen> {
       _score = 0;
       _quizCompleted = false;
     });
+
     _startTimer();
   }
 
@@ -107,27 +130,45 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     if (_questions.isEmpty) {
-      return Scaffold(appBar: AppBar(title: const Text("Quiz")), body: const Center(child: CircularProgressIndicator()));
+      return Scaffold(
+        appBar: AppBar(title: const Text("Quiz")),
+        body: const Center(child: CircularProgressIndicator()),
+      );
     }
+
     if (_quizCompleted) {
       return Scaffold(
         appBar: AppBar(title: const Text("Quiz Completed!")),
         body: Center(
-          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            const Text("🎉 Quiz Completed!", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-            Text("Your Score: $_score / ${_questions.length}", style: const TextStyle(fontSize: 18)),
-            const SizedBox(height: 20),
-            ElevatedButton(onPressed: _restartQuiz, child: const Text("Restart Quiz")),
-          ]),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text(
+                "🎉 Quiz Completed!",
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                "Your Score: $_score / ${_questions.length}",
+                style: const TextStyle(fontSize: 18),
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: _restartQuiz,
+                child: const Text("Restart Quiz"),
+              ),
+            ],
+          ),
         ),
       );
     }
+
     Question currentQuestion = _questions[_currentIndex];
+
     return Scaffold(
       appBar: AppBar(title: const Text("Nigeria Trivia")),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column( 
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -135,20 +176,29 @@ class _QuizScreenState extends State<QuizScreen> {
               "Question ${_currentIndex + 1} of ${_questions.length}",
               style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ).animate().fade(duration: 500.ms),
+
             const SizedBox(height: 10),
+
             Text(
               "Score: $_score",
-              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.green),
+              style: const TextStyle(
+                  fontSize: 18, fontWeight: FontWeight.bold, color: Colors.green),
             ).animate().scale(),
+
             const SizedBox(height: 10),
+
             Text(
               "Time Left: $_timeLeft seconds",
-              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.red),
+              style: const TextStyle(
+                  fontSize: 18, fontWeight: FontWeight.bold, color: Colors.red),
             ).animate().slideX(),
+
             const SizedBox(height: 20),
+
             Card(
               elevation: 5,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12)),
               child: Padding(
                 padding: const EdgeInsets.all(16),
                 child: Text(
@@ -157,11 +207,13 @@ class _QuizScreenState extends State<QuizScreen> {
                 ),
               ),
             ).animate().fade(duration: 500.ms),
+
             const SizedBox(height: 20),
-            _buildAnswerButton(currentQuestion.optionA),
-            _buildAnswerButton(currentQuestion.optionB),
-            _buildAnswerButton(currentQuestion.optionC),
-            _buildAnswerButton(currentQuestion.optionD),
+
+            /// ✅ THIS IS THE FIX
+            ...currentQuestion.options
+                .map((option) => _buildAnswerButton(option))
+                ,
           ],
         ),
       ),
@@ -169,14 +221,20 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Widget _buildAnswerButton(String answer) {
-    return ElevatedButton(
-      onPressed: () => _selectAnswer(answer),
-      style: ElevatedButton.styleFrom(
-        backgroundColor: _selectedAnswer == answer
-            ? (_selectedAnswer == _questions[_currentIndex].answer ? Colors.green : Colors.red)
-            : Colors.blue,
-      ),
-      child: Text(answer),
-    ).animate().scale();
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 5),
+      child: ElevatedButton(
+        onPressed: () => _selectAnswer(answer),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: _selectedAnswer == answer
+              ? (_selectedAnswer ==
+                      _questions[_currentIndex].answer
+                  ? Colors.green
+                  : Colors.red)
+              : Colors.blue,
+        ),
+        child: Text(answer),
+      ).animate().scale(),
+    );
   }
 }
