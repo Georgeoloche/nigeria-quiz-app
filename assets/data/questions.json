@@ -1,0 +1,634 @@
+[
+  {
+    "question": "In what year did Nigeria gain independence from Britain?",
+    "options": ["1957", "1960", "1963", "1965"],
+    "correctAnswer": "1960",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Nigeria gained independence on October 1, 1960. This date is now celebrated every year as Nigeria's Independence Day!"
+  },
+  {
+    "question": "Who was Nigeria's first Prime Minister at independence?",
+    "options": ["Nnamdi Azikiwe", "Obafemi Awolowo", "Abubakar Tafawa Balewa", "Ahmadu Bello"],
+    "correctAnswer": "Abubakar Tafawa Balewa",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Abubakar Tafawa Balewa was Nigeria's first and only Prime Minister. He was sadly killed during the first military coup in January 1966."
+  },
+  {
+    "question": "Who was Nigeria's first President after independence?",
+    "options": ["Abubakar Tafawa Balewa", "Nnamdi Azikiwe", "Yakubu Gowon", "Obafemi Awolowo"],
+    "correctAnswer": "Nnamdi Azikiwe",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Nnamdi Azikiwe, known as Zik of Africa, was Nigeria's first President. He was a strong voice for Nigerian independence and pan-African unity."
+  },
+  {
+    "question": "In what year did the Nigerian Civil War begin?",
+    "options": ["1964", "1967", "1970", "1972"],
+    "correctAnswer": "1967",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "The Nigerian Civil War, also called the Biafran War, lasted from 1967 to 1970. It ended with the famous phrase: No victor, no vanquished."
+  },
+  {
+    "question": "Which colonial power ruled Nigeria before independence?",
+    "options": ["France", "Portugal", "Britain", "Germany"],
+    "correctAnswer": "Britain",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Britain colonized Nigeria and amalgamated the Northern and Southern protectorates in 1914. This amalgamation was done by Lord Frederick Lugard."
+  },
+  {
+    "question": "What was the name of the region that tried to break away from Nigeria in 1967?",
+    "options": ["Oduduwa Republic", "Republic of Biafra", "Arewa Republic", "Niger Delta Republic"],
+    "correctAnswer": "Republic of Biafra",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "The Republic of Biafra was declared by Odumegwu Ojukwu in 1967. The civil war that followed lasted 30 months and ended in January 1970."
+  },
+  {
+    "question": "Who amalgamated the Northern and Southern Nigeria in 1914?",
+    "options": ["Lord Lugard", "Lord Harcourt", "Herbert Macaulay", "King George V"],
+    "correctAnswer": "Lord Lugard",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Lord Frederick Lugard amalgamated Nigeria in 1914. His wife, Flora Shaw, actually suggested the name Nigeria which means great river."
+  },
+  {
+    "question": "Which year was Nigeria's first military coup?",
+    "options": ["1964", "1965", "1966", "1967"],
+    "correctAnswer": "1966",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Nigeria's first military coup happened on January 15, 1966, and is sometimes called the Nzeogwu coup after one of its leaders, Chukwuma Nzeogwu."
+  },
+  {
+    "question": "When did Nigeria return to democracy after military rule?",
+    "options": ["1993", "1995", "1999", "2003"],
+    "correctAnswer": "1999",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Nigeria returned to democracy on May 29, 1999, when Olusegun Obasanjo was inaugurated as President. May 29 is now celebrated as Democracy Day."
+  },
+  {
+    "question": "Which Nigerian nationalist is known as the father of Nigerian nationalism?",
+    "options": ["Nnamdi Azikiwe", "Herbert Macaulay", "Obafemi Awolowo", "Ahmadu Bello"],
+    "correctAnswer": "Herbert Macaulay",
+    "category": "History",
+    "difficulty": "Easy",
+    "funFact": "Herbert Macaulay is widely regarded as the father of Nigerian nationalism. He founded the Nigerian National Democratic Party in 1923, Nigeria's first political party."
+  },
+  {
+    "question": "Which ancient Nigerian kingdom was famous for its bronze artworks?",
+    "options": ["Oyo Empire", "Kanem-Bornu Empire", "Benin Kingdom", "Sokoto Caliphate"],
+    "correctAnswer": "Benin Kingdom",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "The Benin Kingdom, located in present-day Edo State, was famous for its extraordinary bronze and ivory artworks dating back to the 13th century. Many were looted by the British in 1897."
+  },
+  {
+    "question": "The Sokoto Caliphate was founded by which Islamic scholar?",
+    "options": ["Muhammed Bello", "Usman dan Fodio", "Ahmadu Bello", "Al-Kanemi"],
+    "correctAnswer": "Usman dan Fodio",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "Usman dan Fodio founded the Sokoto Caliphate in 1804 after a successful jihad. At its peak it was one of the largest empires in Africa."
+  },
+  {
+    "question": "Which Nigerian leader was killed by Abacha's government in 1995?",
+    "options": ["Emeka Ojukwu", "Ken Saro-Wiwa", "MKO Abiola", "Bola Ige"],
+    "correctAnswer": "Ken Saro-Wiwa",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "Ken Saro-Wiwa was a writer and activist who fought for the rights of the Ogoni people against oil pollution. He was executed by General Sani Abacha's regime on November 10, 1995."
+  },
+  {
+    "question": "What was the name of Nigeria's first university?",
+    "options": ["University of Lagos", "University of Ibadan", "Ahmadu Bello University", "University of Nigeria Nsukka"],
+    "correctAnswer": "University of Ibadan",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "The University of Ibadan was founded in 1948 as a college of the University of London. It became a full independent university in 1962 and is Nigeria's oldest and most prestigious university."
+  },
+  {
+    "question": "Which Nigerian won the Nobel Prize for Literature in 1986?",
+    "options": ["Chinua Achebe", "Ben Okri", "Wole Soyinka", "Chimamanda Adichie"],
+    "correctAnswer": "Wole Soyinka",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "Wole Soyinka became the first African to win the Nobel Prize for Literature in 1986. He is a playwright, poet, and political activist who was once imprisoned by the Nigerian government."
+  },
+  {
+    "question": "The Aba Women Riots of 1929 were a protest against what?",
+    "options": ["Forced labor", "Taxation of women", "Land seizure", "Religious persecution"],
+    "correctAnswer": "Taxation of women",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "The Aba Women Riots of 1929, also called Ogu Umunwanyi, were led by Igbo women protesting against rumored taxation. It was one of the first major anti-colonial uprisings in West Africa."
+  },
+  {
+    "question": "Which empire controlled most of Northern Nigeria before British colonization?",
+    "options": ["Oyo Empire", "Benin Kingdom", "Sokoto Caliphate", "Mali Empire"],
+    "correctAnswer": "Sokoto Caliphate",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "The Sokoto Caliphate controlled a vast territory in Northern Nigeria and was one of the most powerful empires in Africa in the 19th century before the British conquered it in 1903."
+  },
+  {
+    "question": "In which year did Nigeria host the FESTAC — the world Black and African Festival of Arts and Culture?",
+    "options": ["1970", "1975", "1977", "1980"],
+    "correctAnswer": "1977",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "FESTAC 77 was held in Lagos in 1977 and was the second World Black and African Festival. It attracted over 17,000 participants from 56 countries and remains one of the largest cultural events in African history."
+  },
+  {
+    "question": "Who was the military head of state that handed over power to a civilian government in 1979?",
+    "options": ["Yakubu Gowon", "Murtala Mohammed", "Olusegun Obasanjo", "Ibrahim Babangida"],
+    "correctAnswer": "Olusegun Obasanjo",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "Olusegun Obasanjo handed over power to Shehu Shagari in 1979, making Nigeria one of the few African countries where a military leader voluntarily transferred power to an elected civilian government."
+  },
+  {
+    "question": "The Trans-Atlantic slave trade significantly impacted Nigeria. Which port was a major slave export point?",
+    "options": ["Lagos", "Calabar", "Badagry", "Port Harcourt"],
+    "correctAnswer": "Badagry",
+    "category": "History",
+    "difficulty": "Hard",
+    "funFact": "Badagry in Lagos State was one of the major ports through which enslaved Nigerians were shipped to the Americas. Today it has a slavery museum and the famous Point of No Return monument."
+  },
+  {
+    "question": "What is the capital city of Nigeria?",
+    "options": ["Lagos", "Kano", "Abuja", "Ibadan"],
+    "correctAnswer": "Abuja",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Abuja became Nigeria's capital in 1991, replacing Lagos. It was purpose-built as a federal capital and is located at the center of Nigeria to be accessible to all regions."
+  },
+  {
+    "question": "How many states does Nigeria have?",
+    "options": ["30", "34", "36", "40"],
+    "correctAnswer": "36",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Nigeria has 36 states and one Federal Capital Territory (Abuja). Lagos is the smallest state by land area but the most populated with over 20 million people."
+  },
+  {
+    "question": "Which is the longest river in Nigeria?",
+    "options": ["Benue River", "Cross River", "Niger River", "Kaduna River"],
+    "correctAnswer": "Niger River",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "The Niger River is the third longest river in Africa. The name Nigeria actually comes from the Niger River. It flows through Guinea, Mali, Niger, Benin, and Nigeria before emptying into the Atlantic Ocean."
+  },
+  {
+    "question": "Which ocean borders Nigeria to the south?",
+    "options": ["Indian Ocean", "Pacific Ocean", "Atlantic Ocean", "Southern Ocean"],
+    "correctAnswer": "Atlantic Ocean",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Nigeria's southern coast borders the Gulf of Guinea, which is part of the Atlantic Ocean. This coastline stretches about 853 kilometers and is rich in oil and marine resources."
+  },
+  {
+    "question": "What is the largest city in Nigeria by population?",
+    "options": ["Abuja", "Kano", "Lagos", "Ibadan"],
+    "correctAnswer": "Lagos",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Lagos is the largest city in Nigeria and one of the fastest growing cities in the world. It is also the largest city in Africa with an estimated population of over 20 million people."
+  },
+  {
+    "question": "Which Nigerian state is known as the Center of Unity?",
+    "options": ["Niger State", "Kogi State", "FCT Abuja", "Plateau State"],
+    "correctAnswer": "FCT Abuja",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Abuja FCT is called the Center of Unity because it was deliberately located at the geographic center of Nigeria to serve as neutral ground for all ethnic groups and regions."
+  },
+  {
+    "question": "Which state in Nigeria is known as the Sunshine State?",
+    "options": ["Ondo State", "Osun State", "Ekiti State", "Ogun State"],
+    "correctAnswer": "Ondo State",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Ondo State is nicknamed the Sunshine State. It is one of the leading producers of cocoa in Nigeria and is also rich in bitumen deposits."
+  },
+  {
+    "question": "What is the highest mountain in Nigeria?",
+    "options": ["Aso Rock", "Obudu Hills", "Chappal Waddi", "Mandara Mountains"],
+    "correctAnswer": "Chappal Waddi",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Chappal Waddi, meaning Tall Mountain in Fulani, stands at 2,419 meters above sea level. It is located in Taraba State and is the highest point in Nigeria."
+  },
+  {
+    "question": "Which two rivers meet in Kogi State to form the Niger-Benue confluence?",
+    "options": ["Niger and Cross River", "Niger and Benue", "Kaduna and Benue", "Niger and Sokoto"],
+    "correctAnswer": "Niger and Benue",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "The confluence of the Niger and Benue rivers at Lokoja in Kogi State is one of Nigeria's most famous geographical landmarks. Lokoja was also Nigeria's first administrative capital under British rule."
+  },
+  {
+    "question": "Which Nigerian state has the largest land area?",
+    "options": ["Niger State", "Borno State", "Taraba State", "Kaduna State"],
+    "correctAnswer": "Niger State",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "funFact": "Niger State is the largest state in Nigeria by land area, covering about 76,363 square kilometers. It is so large that it is bigger than some African countries!"
+  },
+  {
+    "question": "In which Nigerian state is the Yankari Game Reserve located?",
+    "options": ["Plateau State", "Bauchi State", "Gombe State", "Adamawa State"],
+    "correctAnswer": "Bauchi State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Yankari Game Reserve in Bauchi State is Nigeria's largest and most visited wildlife park. It is home to elephants, lions, baboons, and the famous Wikki Warm Springs."
+  },
+  {
+    "question": "Which Nigerian state is called the Food Basket of the Nation?",
+    "options": ["Benue State", "Kano State", "Plateau State", "Niger State"],
+    "correctAnswer": "Benue State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Benue State is called the Food Basket of the Nation because of its highly fertile land and massive agricultural output. It is the largest producer of yam in Nigeria and in the world."
+  },
+  {
+    "question": "The Zuma Rock is a famous landmark located in which state?",
+    "options": ["Abuja FCT", "Niger State", "Kaduna State", "Kogi State"],
+    "correctAnswer": "Niger State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Zuma Rock is a massive monolith located in Niger State near the Abuja border. It stands 725 meters above sea level and is sometimes called the Gateway to Abuja. It appears on the old 100 Naira note."
+  },
+  {
+    "question": "Which Nigerian state is the only one that borders Lake Chad?",
+    "options": ["Yobe State", "Borno State", "Adamawa State", "Bauchi State"],
+    "correctAnswer": "Borno State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Borno State in northeastern Nigeria borders Lake Chad, which is shared by Nigeria, Niger, Chad, and Cameroon. Sadly Lake Chad has shrunk by about 90% since the 1960s due to climate change."
+  },
+  {
+    "question": "The Obafemi Awolowo University is located in which city?",
+    "options": ["Ibadan", "Ile-Ife", "Abeokuta", "Ondo"],
+    "correctAnswer": "Ile-Ife",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Obafemi Awolowo University is located in Ile-Ife, Osun State. It was originally called the University of Ife and was renamed after Chief Obafemi Awolowo in 1987. It is considered one of the most beautiful university campuses in Africa."
+  },
+  {
+    "question": "Which geopolitical zone in Nigeria has the most states?",
+    "options": ["North West", "South South", "North East", "South West"],
+    "correctAnswer": "North West",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "The North West geopolitical zone has 7 states: Kano, Kaduna, Katsina, Kebbi, Sokoto, Zamfara, and Jigawa. Nigeria is divided into 6 geopolitical zones in total."
+  },
+  {
+    "question": "Which Nigerian state is known as the Politically Turbulent State?",
+    "options": ["Rivers State", "Anambra State", "Ondo State", "Kano State"],
+    "correctAnswer": "Anambra State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Anambra State has earned this nickname due to its historically competitive and turbulent political landscape. Despite this, it is one of Nigeria's most educationally and economically developed states."
+  },
+  {
+    "question": "The Obudu Mountain Resort is located in which Nigerian state?",
+    "options": ["Enugu State", "Cross River State", "Ebonyi State", "Benue State"],
+    "correctAnswer": "Cross River State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "The Obudu Mountain Resort, also called the Obudu Cattle Ranch, is located in Cross River State. Sitting at 1,576 meters above sea level, it is one of the most scenic tourist attractions in Nigeria."
+  },
+  {
+    "question": "Which Nigerian state produces the most crude oil?",
+    "options": ["Delta State", "Rivers State", "Bayelsa State", "Akwa Ibom State"],
+    "correctAnswer": "Akwa Ibom State",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "Akwa Ibom State is Nigeria's largest crude oil producing state, contributing about 30% of Nigeria's total oil production. Despite this huge wealth, it remains one of the most underdeveloped states in Nigeria."
+  },
+  {
+    "question": "What is the name of the bridge that connects Lagos Island to the mainland?",
+    "options": ["Niger Bridge", "Carter Bridge", "Third Mainland Bridge", "Lekki Bridge"],
+    "correctAnswer": "Third Mainland Bridge",
+    "category": "Geography",
+    "difficulty": "Hard",
+    "funFact": "The Third Mainland Bridge stretches 11.8 kilometers over Lagos Lagoon and was the longest bridge in Africa when it was completed in 1990. It connects Lagos Island to the mainland and carries millions of commuters daily."
+  },
+  {
+    "question": "What is the most widely spoken language in Nigeria?",
+    "options": ["Igbo", "Yoruba", "Hausa", "English"],
+    "correctAnswer": "Hausa",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "Hausa is spoken by over 70 million people in Nigeria and across West Africa. It is the most widely spoken language in Nigeria and serves as a lingua franca across northern Nigeria and beyond."
+  },
+  {
+    "question": "What is the traditional attire of the Yoruba people called?",
+    "options": ["Kaftan", "Agbada", "Babban Riga", "Okpu Agu"],
+    "correctAnswer": "Agbada",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "The Agbada is a wide-sleeved robe worn by Yoruba men on special occasions. It is usually embroidered and can take weeks to make. It is one of the most recognizable traditional outfits in West Africa."
+  },
+  {
+    "question": "Which Nigerian festival involves masquerades and is celebrated by the Igbo people?",
+    "options": ["Durbar Festival", "Osun-Osogbo Festival", "New Yam Festival", "Argungu Festival"],
+    "correctAnswer": "New Yam Festival",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "The New Yam Festival, called Iri Ji by the Igbo, celebrates the harvest of new yams. It is one of the most important cultural events in Igboland and symbolizes gratitude to the gods for a good harvest."
+  },
+  {
+    "question": "What is the name of the popular Nigerian fermented locust bean seasoning?",
+    "options": ["Ogiri", "Dawadawa", "Iru", "Ugba"],
+    "correctAnswer": "Iru",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "Iru is a fermented locust bean condiment widely used in Yoruba cooking. It gives soups a deep, rich flavor. Similar products exist across Nigeria under different names like Dawadawa in the North and Ogiri in Igboland."
+  },
+  {
+    "question": "Which of these is a traditional Hausa food?",
+    "options": ["Egusi soup", "Tuwo Shinkafa", "Ofe Onugbu", "Afang soup"],
+    "correctAnswer": "Tuwo Shinkafa",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "Tuwo Shinkafa is a soft rice pudding popular in Northern Nigeria. It is usually served with soups like Miyan Kuka or Miyan Taushe. It is a staple food for millions of Nigerians in the north."
+  },
+  {
+    "question": "The Durbar festival is associated with which group of people in Nigeria?",
+    "options": ["Yoruba", "Igbo", "Hausa-Fulani", "Ijaw"],
+    "correctAnswer": "Hausa-Fulani",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "The Durbar festival is a magnificent display of horses, riders, and royal pageantry celebrated by the Hausa-Fulani people of Northern Nigeria during Eid festivals. The Kano Durbar is the most famous."
+  },
+  {
+    "question": "What does the white color on the Nigerian flag represent?",
+    "options": ["The rivers", "Peace and unity", "Agriculture", "The sky"],
+    "correctAnswer": "Peace and unity",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "The Nigerian flag has two green stripes representing agriculture and forests, and a white stripe in the middle representing peace and unity. It was designed by Michael Taiwo Akinkunmi, a student, in 1959."
+  },
+  {
+    "question": "Which Nigerian music genre became globally famous in the 2010s?",
+    "options": ["Juju music", "Highlife", "Afrobeats", "Fuji music"],
+    "correctAnswer": "Afrobeats",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "Afrobeats emerged from Nigeria in the 2000s and became a global phenomenon in the 2010s. Artists like Burna Boy, Wizkid, and Davido have taken Nigerian music to international stages and award ceremonies."
+  },
+  {
+    "question": "What is the name of Nigeria's national anthem?",
+    "options": ["Nigeria We Hail Thee", "Arise O Compatriots", "One Nigeria", "Forward Ever"],
+    "correctAnswer": "Arise O Compatriots",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "Arise O Compatriots is Nigeria's national anthem adopted in 1978. Interestingly, the original anthem at independence in 1960 was Nigeria We Hail Thee, written by a British expatriate named Lillian Jean Williams."
+  },
+  {
+    "question": "Which popular Nigerian dish is made from fermented cassava?",
+    "options": ["Eba", "Amala", "Fufu", "Pounded Yam"],
+    "correctAnswer": "Eba",
+    "category": "Culture",
+    "difficulty": "Easy",
+    "funFact": "Eba is made from garri, which is produced from fermented and dried cassava. It is one of the most affordable and widely consumed foods in Nigeria, eaten across all regions with various soups."
+  },
+  {
+    "question": "The Osun-Osogbo Sacred Grove is a UNESCO World Heritage Site. What is worshipped there?",
+    "options": ["Sango the god of thunder", "Osun the goddess of water", "Ogun the god of iron", "Obatala the god of creation"],
+    "correctAnswer": "Osun the goddess of water",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "The Osun-Osogbo Sacred Grove in Osun State is dedicated to Osun, the Yoruba goddess of water and fertility. It was inscribed as a UNESCO World Heritage Site in 2005 and hosts an annual festival attended by thousands."
+  },
+  {
+    "question": "Which Nigerian author wrote the famous novel Things Fall Apart?",
+    "options": ["Wole Soyinka", "Ben Okri", "Chinua Achebe", "Chimamanda Adichie"],
+    "correctAnswer": "Chinua Achebe",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "Chinua Achebe published Things Fall Apart in 1958, just two years before independence. It has sold over 20 million copies and been translated into more than 57 languages, making it the most widely read book in modern African literature."
+  },
+  {
+    "question": "What is the traditional title given to the ruler of Kano in Northern Nigeria?",
+    "options": ["Obi", "Oba", "Emir", "Sultan"],
+    "correctAnswer": "Emir",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "The Emir of Kano is one of the most powerful traditional rulers in Nigeria. The Kano Emirate dates back to 1805 and has been a center of Islamic scholarship, trade, and culture for over two centuries."
+  },
+  {
+    "question": "The Benin Bronzes were stolen by British soldiers in which year?",
+    "options": ["1885", "1897", "1900", "1914"],
+    "correctAnswer": "1897",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "In 1897, British soldiers looted over 3,000 bronze sculptures and ivory works from the Benin Kingdom. These priceless artifacts ended up in museums across Europe. Nigeria has been demanding their return for decades."
+  },
+  {
+    "question": "Which Nollywood film was the first Nigerian movie to be acquired by Netflix?",
+    "options": ["Lionheart", "The Wedding Party", "King of Boys", "76"],
+    "correctAnswer": "Lionheart",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "Lionheart directed by Genevieve Nnaji was acquired by Netflix in 2018, becoming the first Nigerian film on the platform. Ironically, it was later disqualified from the Oscars because most of its dialogue was in English."
+  },
+  {
+    "question": "What is the name of the traditional Yoruba talking drum?",
+    "options": ["Gangan", "Bata", "Dundun", "Sekere"],
+    "correctAnswer": "Dundun",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "The Dundun is a pressure drum that can mimic the tones of the Yoruba language, which is why it is called the talking drum. Skilled drummers can use it to send messages and tell stories."
+  },
+  {
+    "question": "Which Nigerian state is home to the Calabar Carnival, often called Africa's biggest street party?",
+    "options": ["Lagos State", "Cross River State", "Akwa Ibom State", "Rivers State"],
+    "correctAnswer": "Cross River State",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "The Calabar Carnival held every December in Cross River State attracts over two million visitors and participants from around the world. It features colorful costumes, music, dance, and cultural displays that last for weeks."
+  },
+  {
+    "question": "What is the name of the traditional ruler of the Yoruba people of Ile-Ife?",
+    "options": ["Alaafin", "Ooni", "Awujale", "Deji"],
+    "correctAnswer": "Ooni",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "The Ooni of Ife is considered the spiritual leader of all Yoruba people worldwide. Ile-Ife is believed to be the cradle of Yoruba civilization and the place where the Yoruba god Oduduwa descended from heaven."
+  },
+  {
+    "question": "Which Nigerian musician is known as the Afrobeats Giant and has won multiple Grammy Awards?",
+    "options": ["Wizkid", "Davido", "Burna Boy", "Fela Kuti"],
+    "correctAnswer": "Burna Boy",
+    "category": "Culture",
+    "difficulty": "Hard",
+    "funFact": "Burna Boy won the Grammy Award for Best Global Music Album in 2021 for his album Twice as Tall. He calls himself the African Giant and his music blends Afrobeats, dancehall, and reggae."
+  },
+  {
+    "question": "Who is the current President of Nigeria as of 2024?",
+    "options": ["Muhammadu Buhari", "Goodluck Jonathan", "Bola Ahmed Tinubu", "Atiku Abubakar"],
+    "correctAnswer": "Bola Ahmed Tinubu",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "Bola Ahmed Tinubu became Nigeria's 16th President on May 29, 2023. He was formerly the Governor of Lagos State from 1999 to 2007 and is known as the Jagaban of Nigerian politics."
+  },
+  {
+    "question": "What is the name of Nigeria's apex bank?",
+    "options": ["First Bank", "Access Bank", "Central Bank of Nigeria", "United Bank for Africa"],
+    "correctAnswer": "Central Bank of Nigeria",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "The Central Bank of Nigeria (CBN) was established in 1958 and is responsible for managing Nigeria's monetary policy, issuing the Naira, and regulating all banks in Nigeria."
+  },
+  {
+    "question": "What is the name of Nigeria's currency?",
+    "options": ["Cedi", "Naira", "Shilling", "Franc"],
+    "correctAnswer": "Naira",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "The Nigerian Naira was introduced on January 1, 1973, replacing the Nigerian pound. The name Naira was coined by Obafemi Awolowo. The smallest unit of the Naira is the Kobo."
+  },
+  {
+    "question": "Which Nigerian agency is responsible for fighting corruption?",
+    "options": ["Nigerian Police Force", "EFCC", "DSS", "NAFDAC"],
+    "correctAnswer": "EFCC",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "The Economic and Financial Crimes Commission (EFCC) was established in 2003 to tackle financial crimes like money laundering, advance fee fraud, and corruption. It was created partly due to pressure from international financial institutions."
+  },
+  {
+    "question": "What does INEC stand for in Nigerian politics?",
+    "options": ["Independent National Electoral Commission", "International Nigerian Electoral Committee", "Independent Nigerian Electoral Council", "Internal National Election Commission"],
+    "correctAnswer": "Independent National Electoral Commission",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "INEC is responsible for organizing and conducting all elections in Nigeria from presidential to local government elections. It was established by the 1999 Constitution and has been at the center of many electoral controversies."
+  },
+  {
+    "question": "In what year was the Nigerian Constitution currently in use adopted?",
+    "options": ["1993", "1996", "1999", "2003"],
+    "correctAnswer": "1999",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "The 1999 Constitution is Nigeria's current constitution. It was adopted on May 29, 1999, the same day the military handed over to a civilian government. Many Nigerians have called for a new constitution to replace it."
+  },
+  {
+    "question": "Which Nigerian agency regulates food and drugs in the country?",
+    "options": ["EFCC", "NAFDAC", "SON", "NCC"],
+    "correctAnswer": "NAFDAC",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "The National Agency for Food and Drug Administration and Control (NAFDAC) was established in 1993. It became very well known under the leadership of Professor Dora Akunyili who fought bravely against fake drugs."
+  },
+  {
+    "question": "What is the name of Nigeria's Senate President as of 2024?",
+    "options": ["Ahmad Lawan", "Bukola Saraki", "Godswill Akpabio", "Ken Nnamani"],
+    "correctAnswer": "Godswill Akpabio",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "Godswill Akpabio was elected Senate President in June 2023. He is a former Governor of Akwa Ibom State and former Minister of Niger Delta Affairs. He is known for his flamboyant style and colorful speeches."
+  },
+  {
+    "question": "Which Nigerian tech company became Africa's first unicorn startup?",
+    "options": ["Flutterwave", "Paystack", "Interswitch", "Konga"],
+    "correctAnswer": "Interswitch",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "Interswitch became Africa's first unicorn startup in 2019 when its valuation reached over one billion dollars. Founded by Mitchell Elegbe in 2002, it created the Verve card and Quickteller payment platform used by millions of Nigerians."
+  },
+  {
+    "question": "What is the name of the Nigerian Space Agency?",
+    "options": ["NASA Nigeria", "NASRDA", "NISAT", "SpaceNG"],
+    "correctAnswer": "NASRDA",
+    "category": "Current Affairs",
+    "difficulty": "Easy",
+    "funFact": "The National Space Research and Development Agency (NASRDA) was established in 1999. Nigeria has launched several satellites into space including NigeriaSat-1 in 2003, making Nigeria one of the few African countries with satellites in orbit."
+  },
+  {
+    "question": "What was the name of the Nigerian government program that removed fuel subsidy in 2023?",
+    "options": ["Subsidy Removal Act", "Renewed Hope Agenda", "Fuel Freedom Policy", "Economic Reform Program"],
+    "correctAnswer": "Renewed Hope Agenda",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "President Tinubu announced the removal of fuel subsidy on his inauguration day in May 2023 under his Renewed Hope Agenda. This led to a massive increase in fuel prices and caused significant economic hardship for millions of Nigerians."
+  },
+  {
+    "question": "Which Nigerian fintech startup was acquired by Stripe for 200 million dollars in 2020?",
+    "options": ["Flutterwave", "Paystack", "Cowrywise", "PiggyVest"],
+    "correctAnswer": "Paystack",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "Paystack, founded by Shola Akinlade and Ezra Olubi in 2015, was acquired by Stripe for over 200 million dollars in 2020. It was one of the biggest tech acquisitions in African history and put Nigerian fintech on the global map."
+  },
+  {
+    "question": "What is the name of the Nigerian Army operation launched to fight Boko Haram in the Northeast?",
+    "options": ["Operation Thunder Strike", "Operation Safe Corridor", "Operation Hadin Kai", "Operation Crocodile Smile"],
+    "correctAnswer": "Operation Hadin Kai",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "Operation Hadin Kai, meaning Cooperation in Hausa, was launched in 2021 to replace Operation Lafiya Dole. It involves a joint effort by the Nigerian military and the Multinational Joint Task Force to combat Boko Haram and ISWAP in the Lake Chad Basin."
+  },
+  {
+    "question": "Which Nigerian won the 2023 Ballon d'Or women's award?",
+    "options": ["Asisat Oshoala", "Rasheedat Ajibade", "Desire Oparanozie", "Francisca Ordega"],
+    "correctAnswer": "Asisat Oshoala",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "Asisat Oshoala is Nigeria's most decorated female footballer. She has won the African Women Player of the Year award six times and plays for FC Barcelona Femeni in Spain. She is widely regarded as the best female footballer in Africa."
+  },
+  {
+    "question": "What is the name of Nigeria's sovereign wealth fund established in 2011?",
+    "options": ["Nigeria Investment Fund", "Nigeria Sovereign Investment Authority", "National Wealth Reserve Fund", "Nigerian Future Fund"],
+    "correctAnswer": "Nigeria Sovereign Investment Authority",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "The Nigeria Sovereign Investment Authority (NSIA) was established in 2011 to manage Nigeria's excess oil revenues. It manages three funds: the Future Generations Fund, the Nigeria Infrastructure Fund, and the Stabilization Fund."
+  },
+  {
+    "question": "Which Nigerian state declared a state of emergency over a drug crisis in 2023?",
+    "options": ["Lagos State", "Rivers State", "Anambra State", "Kano State"],
+    "correctAnswer": "Anambra State",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "Anambra State Governor Chukwuma Soludo declared a state of emergency over the abuse of Tramadol and other opioids in 2023. The drug crisis among young people has become a serious public health concern across Nigeria."
+  },
+  {
+    "question": "What is the name of the Nigerian government social investment program that gives cash to poor households?",
+    "options": ["TraderMoni", "Conditional Cash Transfer", "N-Power", "Market Moni"],
+    "correctAnswer": "Conditional Cash Transfer",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "The Conditional Cash Transfer program, also called the HomeCare program, gives monthly cash payments to extremely poor households across Nigeria. It is part of Nigeria's National Social Investment Programme and has reached millions of families."
+  },
+  {
+    "question": "Nigeria is the largest producer of which crop in Africa?",
+    "options": ["Cocoa", "Cassava", "Palm Oil", "Cotton"],
+    "correctAnswer": "Cassava",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "Nigeria is the world's largest producer of cassava, producing over 60 million tonnes annually. Cassava is used to make garri, fufu, starch, flour, and even ethanol. It is a crucial food security crop for over 50 million Nigerians."
+  },
+  {
+    "question": "Which Nigerian was appointed as the Managing Director of the World Trade Organization in 2020?",
+    "options": ["Ngozi Okonjo-Iweala", "Amina Mohammed", "Obiageli Ezekwesili", "Arunma Oteh"],
+    "correctAnswer": "Ngozi Okonjo-Iweala",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "Ngozi Okonjo-Iweala became the first African and first woman to lead the World Trade Organization (WTO) in March 2021. She previously served twice as Nigeria's Finance Minister and is one of the most respected economists in the world."
+  },
+  {
+    "question": "What is the name of the EndSARS protest that rocked Nigeria in 2020?",
+    "options": ["A protest against bad roads", "A protest against police brutality by the SARS unit", "A protest against fuel prices", "A protest against unemployment"],
+    "correctAnswer": "A protest against police brutality by the SARS unit",
+    "category": "Current Affairs",
+    "difficulty": "Hard",
+    "funFact": "The EndSARS protests in October 2020 were a massive youth-led movement demanding the disbandment of the Special Anti-Robbery Squad (SARS) notorious for brutality. The protests ended tragically when soldiers opened fire on peaceful protesters at the Lekki Toll Gate on October 20, 2020."
+  }
+]
